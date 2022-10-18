@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color:darkgrey;">
+    <div style="background-color:lightblue;">
+    <fieldset>
+    <table style="border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;">
+        <thead>
+            <tr>
+                <th >Home</th>
+                <th>|</th>
+                <th>Register</th>
+                <th>|</th>
+                <th>Policy</th>
+                <th>|</th>
+                <th>About</th>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <img src="mac.jpg" width="90">
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Title Here </label></td>
+                    <td>MacBook Air $800</td>
+                </tr>
+                <tr>
+                    <td><label for="description">Description : </label></td>
+                    <td>Year : 2009</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Model : </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Condition : Mint</td>
+                </tr>
+                <tr>
+                    <td>Total Amount : </td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Pay to : </td>
+                    <td>123-455-789-0</td>
+                </tr>
+                <tr>
+                    <td><label for="bank">Bank : </label></td>
+                    <td><select name="bank">
+                        <option value="visa">Visa Debit</option>
+                        <option value="hsbc">HSBC</option>
+                        <option value="brc">BRC</option>
+                        <option value="mbc">MBC</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="account">Account Holder : </label></td>
+                    <td><input type="text" id="account" placeholder="Name Here"></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Account Number :</label></td>
+                    <td><input type="number" id="number" placeholder="123-455-789-0"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="phone" name="send" checked>
+                    <label for="phone">Send to mobile phone</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="email" name="send" checked>
+                    <label for="email">Send to Email</label></td>
+                </tr>
+        <br>
+                <tr>
+                    <td><label for="number">Send to Mobile Phone :</label></td>
+                    <td><input type="number" id="number" placeholder="1234567890, 1234567891"></td>
+                    <tr>
+                        <td><label for="email">Send to Email :</label></td>
+                        <td><input type="email" id="email" placeholder="mfmm2g13@soton.com, fys_06@yahoo.com"></td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <button type="submit">Pay using QuidLink</button>
+    </form>
+    </fieldset>
+    </div>
+</body>
+</html>

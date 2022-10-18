@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Pizza_0110122188_Syaffa Mufidah</title>
+</head>
+<body>
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <p>Our 12"wood-fired pizzas are delivery. Build your custom pizza and we'll deliver it within an hour</p>
+    <hr>
+    <form method="post" action="http://blackgoosebistro.com/pizza.php">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Your Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="customername">Name</label></td>
+                    <td>: <input type="text" id="customername" ></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td>: <input type="text" id="address" ></td>
+                </tr>
+                <tr>
+                    <td><label for="telephone">Telephone Number</label></td>
+                    <td>: <input type="number" id="telephone" ></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>: <input type="email" id="email" ></td>
+                </tr>
+                <tr>
+                    <td><label for="instruction">Delivery Instruction</label></td>
+                    <td>: <textarea id="instruction" maxlength="400" placeholder="No more than 400 characters long"></textarea></td>
+                </tr>
+            </tbody>
+        </table>
+        <fieldset>
+            <legend>Design Your Dream Pizza: </legend>
+            <h4>Crust (Choose one):</h4>
+            <ul style="list-style: none;">
+                <li>
+                    <input type="radio" id="classic" name="crust">
+                    <label for="classic">Classic</label>
+                </li>
+                <li>
+                    <input type="radio" id="multigrain" name="crust">
+                    <label for="multigrain">Multigrain</label>
+                </li>
+                <li>
+                    <input type="radio" id="cheese" name="crust">
+                    <label for="cheese">Cheese-stuffed crust</label>
+                </li>
+                <li>
+                    <input type="radio" id="gluten" name="crust">
+                    <label for="gluten">Gluten free</label>
+                </li>
+            </ul>
+            <h4>Toppings (Choose as many as you want):</h4>
+            <ul style="list-style: none;">
+                <li>
+                    <input type="checkbox" id="red" name="toppings" checked>
+                    <label for="red">Red sauce</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="white" name="toppings">
+                    <label for="white">White sauce</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="mozarella" name="toppings">
+                    <label for="mozarella">Mozzarella Cheese</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="pepperoni" name="toppings">
+                    <label for="pepperoni">Pepperoni</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="mushrooms" name="toppings">
+                    <label for="mushrooms">Mushrooms</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="peppers" name="toppings">
+                    <label for="peppers">Peppers</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="anchovies" name="toppings">
+                    <label for="anchovies">Anchovies</label>
+                </li>
+            </ul>
+            <h4>Number</h4>
+            <label>How many pizzas: </label>
+            <select name="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

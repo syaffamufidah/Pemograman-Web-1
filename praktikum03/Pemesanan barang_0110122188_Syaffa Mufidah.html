@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color:darkgrey;">
+    <div style="background-color:lightblue;">
+    <fieldset>
+    <table style="border-bottom: 1px solid black; border-top: 1px solid black; border-right: 1px solid black; border-left: 1px solid black;">
+        <thead>
+            <tr>
+                <th >Home</th>
+                <th>|</th>
+                <th>Generate Link</th>
+                <th>|</th>
+                <th>Transaction History</th>
+                <th>|</th>
+                <th>Policy</th>
+                <th>|</th>
+                <th>Logout</th>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <img src="foto.jpg" width="70">
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Title Here :</label></td>
+                    <td><input type="text" id="name" placeholder="MacBook Air"></td>
+                </tr>
+                <tr>
+                    <td><label for="description">Description : </label></td>
+                    <td><textarea id="description" placeholder="Year : 2009
+                        Model : 
+                        Condition : Mint"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Account Number :</label></td>
+                    <td><input type="number" id="number" placeholder="123-455-789-0"></td>
+                </tr>
+                <tr>
+                    <td><label for="bank">Bank : </label></td>
+                    <td><select name="bank">
+                        <option value="hsbc">HSBC</option>
+                        <option value="brc">BRC</option>
+                        <option value="mbc">MBC</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="account">Account Holder : </label></td>
+                    <td><input type="text" id="account" placeholder="Name Here"></td>
+                </tr>
+                <tr>
+                    <td><label for="transaction">Transaction : </label></td>
+                    <td><select name="transaction">
+                        <option value="option 1">1</option>
+                        <option value="option 2">2</option>
+                        <option value="option 3">3</option>
+                        <option value="option 4">4</option>
+                        <option value="option 5">5</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="phone" name="send" checked>
+                    <label for="phone">Send to mobile phone</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="email" name="send" checked>
+                    <label for="email">Send to Email</label></td>
+                </tr>
+        <br>
+                <tr>
+                    <td><label for="number">Send to Mobile Phone :</label></td>
+                    <td><input type="number" id="number" placeholder="1234567890, 1234567891"></td>
+                    <tr>
+                        <td><label for="email">Send to Email :</label></td>
+                        <td><input type="email" id="email" placeholder="mfmm2g13@soton.com, fys_06@yahoo.com"></td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <button type="submit">Generate Nabr Link</button>
+    </form>
+    </fieldset>
+    </div>
+</body>
+</html>
