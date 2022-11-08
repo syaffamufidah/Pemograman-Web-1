@@ -1,0 +1,55 @@
+body{
+    background-color:lightpink ;
+    font-family:'Times New Roman', Times, serif;
+}
+#header{
+    background-color:lightcyan;
+    text-align: center;
+    padding: 10px;
+}
+#header h1{
+    color:indianred ;
+}
+#header blockquote{
+    background-color:bisque;
+}
+.menu{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.gambar{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.koleksi {
+    text-align: center;
+}
+.fp::first-letter{
+    font-size: 50px;
+    color: blue;
+}
+.koleksi img{
+    width: 20%;
+}
+h2 {
+    color:deeppink;
+    text-align: center;
+}
+.promo {
+    text-align: center;
+}
+.ekor {
+    background-color:lightcyan ;
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+    color:hotpink ;
+    width:max-content;
+    margin: 5px auto;
+    padding: 10px;
+}
